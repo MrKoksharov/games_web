@@ -1,0 +1,82 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+header{
+    background-color: black;
+    height: 100px;
+}
+ul{
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: blanchedalmond;
+    text-transform: uppercase;
+}
+nav{
+    max-width: 500px;
+    width: 100%;
+    gap: 20px;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.container{
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero{
+    /* background-color: green; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: start;
+    border-bottom: 3px solid #000;
+    
+}
+.hero_content{
+    max-width: 500px;
+}
+h1{
+    margin-top: 0;
+}
+h3{
+    text-align: center;
+}
+.minecraft_content.flex{
+    align-items: start;
+}
+.minecraft_content img{
+    height: 200px;
+}
+.roblox_content.flex{
+    align-items: start;
+}
+.roblox_content img{
+    height: 200px;
+}
+.fortnite_content.flex{
+    align-items: start;
+}
+.fortnite_content img{
+    height: 200px;
+}
+footer.flex{
+    background-color: black;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-top: 24px;
+    gap: 100px;
+}
+footer h3{
+    color: blanchedalmond;
+}
+footer.flex article:first-child{
+    text-align: right;
+}
